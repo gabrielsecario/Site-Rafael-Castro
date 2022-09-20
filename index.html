@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Precisa de um dentista? Venha conhecer o meu trabalho!">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="script" href="./index.js">
+    <link rel="stylesheet" href="efeitofade.css">
+    
+    <title>Dr. Rafael Castro</title>
+</head>
+<body onload="definirDisplay()">
+
+
+<div class="containercentral">
+    <header id="header">
+        
+        <img src="./assets/logo.png" class="logo" alt="logo" >
+
+        <nav id="nav">
+            <button id="btn-mobile" onclick="toggleMenu()"><span id="hamburguer"></span></button>
+            <ul class="menu"  id="menu">
+            <li> <a href="#apres">Sobre Mim</a> </li>
+            <li> <a href="#trab">Trabalhos</a> </li>
+            <li> <a href="#cursofaceta">Curso</a> </li>   
+            <li> <a href="#localizacao">Localização</a> </li>
+            </ul>
+        </nav>
+       
+    </header>
+
+    <main>
+            <div class="apresentacao" id="apres">
+
+                <img src="./assets/Rafael.jpeg" id="rafael1" alt="">
+                <img src="./assets/Rafael2.jpeg" id="rafael2" alt="">
+
+                <div class="texto-apresentacao">
+                    <p>Arrancar risadas e sorrisos das pessoas sempre fez parte da minha rotina, mas confesso que essa 
+                    paixão avassaladora que eu desenvolvi pela Odontologia ainda me intriga!</p>
+                        
+                    <p>Aliás, costumo falar que foi amor à primeira vista/aula! Lá em 2014! E desde então, tenho mergulhado mais 
+                    fundo no universo odontológico.
+                    
+                    <p>Ainda durante a faculdade, cursei Atualização em Dor Orofacial e DTM (UMESP), Traumatologia Dental (USP), 
+                    Excelência em Resina Composta (Prof. Raposo), Cirurgia Avançada para Terceiros Molares Inclusos (UMESP) 
+                    e iniciação científica (PIBIC) por três anos na área de Implantologia.</p>
+                    
+                    <p>Me formei em 2017 e em 2018, ingressei em especialização em Implantologia (ABO SCS) 
+                    e Atualização em Prótese Fixa Estética (APCD Central).</p>
+                    
+                    <p>Em 2019, me especializei em Capacitação em Venopunção e Agregados Plaquetários (ABO SCS) e Capacitação em 
+                    Emergências Médicas (ABO SP).</p>
+                    
+                    <p>Em 2020, me especializei em Facetas em Resinas Compostas (prof. Felipe Bezerra), Restaurações Estéticas e 
+                    Posteriores (prof. Albano) e Introdução a Harmonização Orofacial (Intituto Sallys).</p>
+                    
+                    <p>Em 2021, cursei Residência Avançada em Harmonização Orofacial (Instituto Silvio de Freitas) e 
+                    Intensivo em Fotografia Profissional Odontológica (prof. Renan).</p>
+                    
+                    <p>Finalmente, em 2022, estudei Imersão em Cirurgia Periodontal Avançada Estética (FR Cursos - Curitiba), 
+                    Imersão em Gengivoplastia e Enxertos Gengivais (Faveri Academy) e Intensivo em Fotografia 
+                    e Planejamento Digital (prof. Adriano Correia).</p>
+                    
+                    <p>Cada nova aula, uma nova dose de paixão pela ciência odontológica. E a meta é seguir inovando 
+                    e aumentando minha sabedoria sobre ela para poder, cada dia mais, entregar o melhor aos meus pacientes 
+                    e colher os sorrisos mais sinceros!</p>
+                    </div>
+            </div>
+            <div class="trabalhos" id="trab">
+                <img src="./assets/denteicon.png" alt="">
+                <h1>Trabalhos Realizados</h1>
+            </div>
+
+         
+
+            <ul class="slider">
+                <li>
+                      <input type="radio" id="slide1" name="slide" checked>
+                      <label for="slide1"></label>
+                      <img src="./assets/img1.jpeg" />
+                </li>
+                <li>
+                      <input type="radio" id="slide2" name="slide">
+                      <label for="slide2"></label>
+                      <img src="./assets/img2.jpeg" />
+                </li>
+                <li>
+                      <input type="radio" id="slide3" name="slide">
+                      <label for="slide3"></label>
+                      <img src="./assets/img3.jpeg" />
+                </li>
+            </ul>
+        
+            <div class="curso" id="cursofaceta">
+                <img src="./assets/livroicon.png" alt="">
+                <h1>Curso de Facetas</h1>
+            </div>
+        <video controls src="./assets/IntroFacetas.mp4" poster=""></video>
+        <button onclick="maisCurso()" id="info-curso">Saiba Mais</button>
+        <div id="material-curso">
+            
+            <h2 class="int-curso">Já ouviu falar de facetas em resina?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repellat sequi aut quia enim iste accusantium similique dicta in dolor alias, quod libero nisi, doloribus, inventore debitis quidem modi ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. In, nostrum. Quibusdam mollitia iste distinctio numquam cum, rem unde quisquam natus. Minima voluptate iure reprehenderit magnam! Eaque similique assumenda officiis aliquid!</p>
+            <img class="faceta" src="./assets/facetas1.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolores quos eligendi sit rem libero, totam modi autem sequi assumenda, ea minima labore provident numquam accusamus quae corrupti veritatis. Ipsa?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laboriosam distinctio sit pariatur voluptates esse, placeat ipsa rerum, deleniti dicta, ipsam est accusamus libero! Blanditiis officia vel praesentium architecto perspiciatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ipsum ab voluptatem, delectus inventore natus a? Obcaecati veritatis aspernatur commodi blanditiis hic similique delectus, laborum consectetur aut cupiditate repudiandae excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam assumenda hic, accusamus repellendus dolorem vel eius eveniet facilis laudantium, earum saepe magnam. Delectus id consequuntur at adipisci nemo ratione reprehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita officiis totam velit impedit nesciunt quod nisi. Beatae aut saepe veniam iure ipsum quibusdam ex quidem, sapiente rerum at tenetur animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti modi tempora porro deleniti possimus, eius veniam earum quae cupiditate saepe sunt dignissimos nostrum similique repudiandae? Ad qui voluptates reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sint, enim, quisquam vero voluptatem aspernatur accusantium, nihil distinctio et ut eum nulla provident. Sint, molestiae dolorum? Nihil cupiditate laborum et!</p>
+            <img class="faceta" src="./assets/facetas1.jpeg" alt="">
+
+        </div>
+        <div class="local-title" id="localizacao">
+            <img src="./assets/localicon.png" alt="">
+            <h1>Localização</h1>
+        </div>
+        
+        
+        <div class="local">
+            <img src="./assets/consult1.jpeg" alt="">
+            <img src="./assets/consult2.jpeg" alt="">
+            <img src="./assets/consult3.jpeg" alt="">
+            <img src="./assets/consult4.jpeg" alt="">
+            <img src="./assets/consult5.jpeg" alt="">
+            <img src="./assets/consult7.jpeg" alt="">
+            <p>Quer conhecer ou marcar uma consultar? Estamos localizados em <a href="https://goo.gl/maps/CCvXiBqG1nxELJKq5" target="_blank">R. Jurubatuba, 1350 - Vila Lusitania</a> e pode marcar sua consultar no <a href="https://api.whatsapp.com/send?phone=5511977776853" target="_blank">WhatsApp</a></p>
+        </div>
+
+    </main>
+    <footer>
+        <h2 class="contatos">Contato: (11) 97777-6853</h2>
+        <div class="sociais">
+            <a href="https://api.whatsapp.com/send?phone=5511977776853" target="_blank" rel="noreferrer noopener"><img src="./assets/wpp.png" alt=""></a>
+            <a href="https://www.instagram.com/rafaelcastro_odontologo/" target="_blank" rel="noreferrer noopener"><img src="./assets/ig.png" alt=""></a>
+        </div>
+        <h2 class="contatos">rafaelcastro@exemplo.com</h2>
+    </footer>
+</div>
+<script type="text/javascript" src="home.js"></script>
+
+</body>
+</html>
