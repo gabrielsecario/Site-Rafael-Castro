@@ -13,6 +13,11 @@ function maisCurso(){
     }
 }
 
+function definirDisplay(){
+  var materialcurso = document.getElementById("material-curso");
+  
+    materialcurso.style.display = "none";
+}
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(){
